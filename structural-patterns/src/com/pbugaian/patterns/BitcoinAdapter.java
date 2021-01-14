@@ -1,7 +1,7 @@
 package com.pbugaian.patterns;
 
-import com.afishr.domain.BitcoinEntity;
-import com.afishr.domain.MoneyEntity;
+import com.pbugaian.domain.BitcoinEntity;
+import com.pbugaian.domain.MoneyEntity;
 
 public class BitcoinAdapter extends MoneyEntity {
   BitcoinEntity bitcoin;

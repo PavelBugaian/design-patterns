@@ -1,7 +1,7 @@
 package com.pbugaian.patterns.command;
 
-import com.afishr.domain.AccountEntity;
-import com.afishr.domain.MoneyEntity;
+import com.pbugaian.domain.AccountEntity;
+import com.pbugaian.domain.MoneyEntity;
 
 public class SendMoneyCommand implements ICommand {
   AccountEntity sourceAccount;

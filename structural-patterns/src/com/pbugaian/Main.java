@@ -1,12 +1,12 @@
 package com.pbugaian;
 
-import com.afishr.domain.AccountEntity;
-import com.afishr.domain.ActivityWindowEntity;
-import com.afishr.domain.BitcoinEntity;
-import com.afishr.domain.MoneyEntity;
-import com.afishr.patterns.AccountProxy;
-import com.afishr.patterns.BitcoinAdapter;
-import com.afishr.patterns.TransferFacade;
+import com.pbugaian.domain.AccountEntity;
+import com.pbugaian.domain.ActivityWindowEntity;
+import com.pbugaian.domain.BitcoinEntity;
+import com.pbugaian.domain.MoneyEntity;
+import com.pbugaian.patterns.AccountProxy;
+import com.pbugaian.patterns.BitcoinAdapter;
+import com.pbugaian.patterns.TransferFacade;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
 package com.pbugaian.patterns;
 
-import com.afishr.entities.AccountEntity;
+import com.pbugaian.entities.AccountEntity;
 
 import java.util.ArrayList;
 import java.util.List;

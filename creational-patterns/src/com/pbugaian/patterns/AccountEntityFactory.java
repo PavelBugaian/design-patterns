@@ -1,9 +1,9 @@
 package com.pbugaian.patterns;
 
-import com.afishr.entities.AccountEntity;
-import com.afishr.entities.ActivityEntity;
-import com.afishr.entities.ActivityWindowEntity;
-import com.afishr.entities.MoneyEntity;
+import com.pbugaian.entities.AccountEntity;
+import com.pbugaian.entities.ActivityEntity;
+import com.pbugaian.entities.ActivityWindowEntity;
+import com.pbugaian.entities.MoneyEntity;
 
 import java.util.ArrayList;
 

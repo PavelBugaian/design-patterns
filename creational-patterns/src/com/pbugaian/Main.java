@@ -1,9 +1,9 @@
 package com.pbugaian;
 
-import com.afishr.entities.AccountEntity;
-import com.afishr.entities.MoneyEntity;
-import com.afishr.patterns.AccountEntityFactory;
-import com.afishr.patterns.AccountsStore;
+import com.pbugaian.entities.AccountEntity;
+import com.pbugaian.entities.MoneyEntity;
+import com.pbugaian.patterns.AccountEntityFactory;
+import com.pbugaian.patterns.AccountsStore;
 
 public class Main {
 

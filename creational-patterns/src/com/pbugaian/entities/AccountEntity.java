@@ -1,6 +1,6 @@
 package com.pbugaian.entities;
 
-import com.afishr.patterns.AccountEntityFactory;
+import com.pbugaian.patterns.AccountEntityFactory;
 
 import java.util.ArrayList;
 import java.util.Date;

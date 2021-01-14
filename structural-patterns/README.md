@@ -3,7 +3,7 @@
 ## Author
 
 Pavel Bugaian FAF-182 [@PavelBugaian](github.com/PavelBugaian)
-
+    
 ## Topic
 
 Structural Design Patterns. Implementation and usage.

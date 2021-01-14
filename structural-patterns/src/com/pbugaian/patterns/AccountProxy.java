@@ -1,8 +1,8 @@
 package com.pbugaian.patterns;
 
-import com.afishr.domain.AccountEntity;
-import com.afishr.domain.ActivityWindowEntity;
-import com.afishr.domain.MoneyEntity;
+import com.pbugaian.domain.AccountEntity;
+import com.pbugaian.domain.ActivityWindowEntity;
+import com.pbugaian.domain.MoneyEntity;
 
 public class AccountProxy extends AccountEntity {
   AccountEntity account;
