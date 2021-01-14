@@ -43,8 +43,8 @@ public class Main {
 		System.out.println(account.calculateBalance().getAmount());
 	}
 
-	public static void transferMoney(AccountEntity sourceAccount, AccountEntity targetAccoutn, Double amount) {
-		sourceAccount.withdraw(MoneyEntity.of(amount), targetAccoutn.getId());
-		targetAccoutn.deposit(MoneyEntity.of(amount), sourceAccount.getId());
+	public static void transferMoney(AccountEntity sourceAccount, AccountEntity targetAccount, Double amount) {
+		sourceAccount.withdraw(MoneyEntity.of(amount), targetAccount.getId());
+		targetAccount.deposit(MoneyEntity.of(amount), sourceAccount.getId());
 	}
 }
