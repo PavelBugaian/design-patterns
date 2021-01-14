@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class AccountEntity {
-	private String id;
-	private MoneyEntity baseLineBalance;
+	private final String id;
+	private final MoneyEntity baseLineBalance;
 	private ActivityWindowEntity activityWindow;
 
 	public AccountEntity(String id, MoneyEntity baseLineBalance, ActivityWindowEntity activityWindow) {
@@ -35,9 +35,9 @@ public class AccountEntity {
 		);
 	}
 
-	public boolean withdraw(MoneyEntity money, String targetAccountId) {
+	public void withdraw(MoneyEntity money, String targetAccountId) {
 		if (!this.mayWithdrawMoney(money)) {
-			return false;
+			return;
 		}
 
 		ActivityEntity withdrawal = new ActivityEntity(
@@ -49,10 +49,9 @@ public class AccountEntity {
 		);
 
 		this.activityWindow.addActivity(withdrawal);
-		return true;
 	}
 
-	public boolean deposit(MoneyEntity money, String sourceAccountId) {
+	public void deposit(MoneyEntity money, String sourceAccountId) {
 		ActivityEntity deposit = new ActivityEntity(
 			getId(),
 			sourceAccountId,
@@ -62,7 +61,6 @@ public class AccountEntity {
 		);
 
 		this.activityWindow.addActivity(deposit);
-		return true;
 	}
 
 	public AccountEntity copy(String newAccountId) {

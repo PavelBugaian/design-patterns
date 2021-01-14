@@ -3,7 +3,7 @@ package com.pbugaian.entities;
 import java.util.List;
 
 public class ActivityWindowEntity {
-	private List<ActivityEntity> activities;
+	private final List<ActivityEntity> activities;
 
 	public List<ActivityEntity> getActivities() {
 		return activities;
@@ -13,9 +13,8 @@ public class ActivityWindowEntity {
 		this.activities = activities;
 	}
 
-	public ActivityWindowEntity addActivity(ActivityEntity activity) {
+	public void addActivity(ActivityEntity activity) {
 		this.activities.add(activity);
-		return this;
 	}
 
 	public MoneyEntity calculateBalance(String accountId) {

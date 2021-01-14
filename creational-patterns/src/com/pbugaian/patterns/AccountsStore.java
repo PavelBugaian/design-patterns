@@ -4,10 +4,11 @@ import com.pbugaian.entities.AccountEntity;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class AccountsStore {
 	private static AccountsStore instance = null;
-	private List<AccountEntity> accounts;
+	private final List<AccountEntity> accounts;
 
 	private AccountsStore() {
 		accounts = new ArrayList<AccountEntity>();
@@ -21,14 +22,13 @@ public class AccountsStore {
 		return instance;
 	}
 	
-	public AccountsStore add(AccountEntity account) {
+	public void add(AccountEntity account) {
 		accounts.add(account);
-		return this;
 	}
 	
 	public AccountEntity getAccountById(String accountId) {
 		for (AccountEntity account : accounts) {
-			if (account.getId() == accountId) {
+			if (Objects.equals(account.getId(), accountId)) {
 				return account;
 			}
 		}

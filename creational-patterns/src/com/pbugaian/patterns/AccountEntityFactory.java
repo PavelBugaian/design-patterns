@@ -7,7 +7,6 @@ import com.pbugaian.entities.MoneyEntity;
 
 import java.util.ArrayList;
 
-
 public class AccountEntityFactory {
 
 	public static AccountEntity makeAccountEntity(String accountId, Double initialBalance) {

@@ -1,7 +1,7 @@
 package com.pbugaian.entities;
 
 public class MoneyEntity {
-	private double amount;
+	private final double amount;
 
 	public MoneyEntity (double amount) {
 		this.amount = amount;
