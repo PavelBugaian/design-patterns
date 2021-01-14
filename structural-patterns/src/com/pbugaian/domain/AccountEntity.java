@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class AccountEntity {
-	private String id;
-	private MoneyEntity baseLineBalance;
-	private ActivityWindowEntity activityWindow;
+	private final String id;
+	private final MoneyEntity baseLineBalance;
+	private final ActivityWindowEntity activityWindow;
 
 	public AccountEntity(String id, MoneyEntity baseLineBalance, ActivityWindowEntity activityWindow) {
 		this.id = id;
