@@ -13,9 +13,8 @@ public class ActivityWindowEntity {
 		this.activities = activities;
 	}
 
-	public ActivityWindowEntity addActivity(ActivityEntity activity) {
+	public void addActivity(ActivityEntity activity) {
 		this.activities.add(activity);
-		return this;
 	}
 
 	public MoneyEntity calculateBalance(String accountId) {
