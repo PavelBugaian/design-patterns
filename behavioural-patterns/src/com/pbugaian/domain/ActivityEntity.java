@@ -3,11 +3,11 @@ package com.pbugaian.domain;
 import java.util.Date;
 
 public class ActivityEntity {
-	private String ownerAccountId;
-	private String sourceAccountId;
-	private String targetAccountId;
-	private Date timestamp;
-	private MoneyEntity money;
+	private final String ownerAccountId;
+	private final String sourceAccountId;
+	private final String targetAccountId;
+	private final Date timestamp;
+	private final MoneyEntity money;
 
 	public ActivityEntity(
 		String ownerAccountId,

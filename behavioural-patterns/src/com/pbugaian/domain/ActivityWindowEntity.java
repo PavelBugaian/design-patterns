@@ -3,7 +3,7 @@ package com.pbugaian.domain;
 import java.util.List;
 
 public class ActivityWindowEntity {
-	private List<ActivityEntity> activities;
+	private final List<ActivityEntity> activities;
 
 	public List<ActivityEntity> getActivities() {
 		return activities;
