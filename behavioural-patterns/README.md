@@ -2,7 +2,7 @@
 
 ## Author
 
-Alexandru Calugari FAF-181 [@afishr](github.com/afishr)
+Pavel Bugaian FAF-182 [@PavelBugaian](github.com/PavelBugaian)
 
 ## Topic
 
